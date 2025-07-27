@@ -52,7 +52,8 @@ Tailwind is already configured with Angular. You can use Tailwind utility classe
 cd backend
 
 # Create and activate a virtual environment
-Open the Command Palette (Ctrl+Shift+P), search for the Python: Create Environment command, and select it. Or you can do the following
+Open the Command Palette (Ctrl+Shift+P), search for the Python: Create Environment command, and select it.
+Or you can do the following
 
 python -m venv .venv
 
@@ -62,10 +63,10 @@ source ../.venv/bin/activate
 # Windows:
 ../.venv/Scripts/activate
 
-# Install Python dependencies
+# Once venv is actived, install Python dependencies
 pip install -r requirements.txt
 
-# Run the backend server
+# You can now run the backend server
 python manage.py runserver
 
 Backend will run at: [http://127.0.0.1:8000](http://127.0.0.1:8000)
@@ -78,7 +79,7 @@ Backend will run at: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 Create a `.env` file in the `backend/` folder and paste the following (change the key):
 
 ```env
-SECRET_KEY=your_secret_key_here
+SECRET_KEY='your_secret_key_here'
 DEBUG=True
 ```
 
@@ -112,7 +113,7 @@ pip freeze > requirements.txt
 
 ## 👥 Contributing Workflow
 
-1. Create a branch: `git checkout -b feature/your-feature`
+1. Create a branch: `git checkout -b nameLastinitials/your-feature (e.g. solomonAD/feature1)`
 2. Make your changes
 3. Commit: `git commit -m "Add your message"`
 4. Push: `git push origin feature/your-feature`
