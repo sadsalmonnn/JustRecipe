@@ -53,7 +53,7 @@ cd backend
 
 # Create and activate a virtual environment
 Open the Command Palette (Ctrl+Shift+P), search for the Python: Create Environment command, and select it.
-Or you can do the following
+Or you can do the following:
 
 python -m venv .venv
 
