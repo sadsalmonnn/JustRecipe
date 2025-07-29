@@ -66,7 +66,7 @@ source ../.venv/bin/activate
 # Once venv is actived, install Python dependencies
 pip install -r requirements.txt
 
-# You can now run the backend server
+# You can now run the backend server in command prompt (not powershell) in your venv
 python manage.py runserver
 
 Backend will run at: [http://127.0.0.1:8000](http://127.0.0.1:8000)
@@ -76,7 +76,7 @@ Backend will run at: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
 ## 🔐 Step 4: Environment Variables
 
-Create a `.env` file in the `backend/` folder and paste the following (change the key):
+Create a `.env` file and paste the following (change the key):
 
 ```env
 SECRET_KEY='your_secret_key_here'
