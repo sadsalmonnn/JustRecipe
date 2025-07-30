@@ -1,1 +1,15 @@
 <app-tool-navbar></app-tool-navbar>
+
+<form [formGroup]="recipeForm" (ngSubmit)="onSubmit()">
+
+  <label for="">Title</label>
+  <input type="text" class="bg-amber-100" [formControl]="recipeForm.get('title')">
+
+  <label for="">Ingredients</label>
+  <input type="text" class="bg-amber-100" [formControl]="recipeForm.get('ingredient')">
+
+  <label for="">Recipe</label>
+  <input type="text" class="bg-amber-100" [formControl]="recipeForm.get('recipe')">
+
+  <button type="submit">Submit recipe</button>
+</form>
