@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
-import { Titlesection } from './titlesection/titlesection';
 
 @Component({
   selector: 'app-introductionpage',
-  imports: [Titlesection],
+  imports: [],
   templateUrl: './introductionpage.html',
   styleUrl: './introductionpage.css'
 })
