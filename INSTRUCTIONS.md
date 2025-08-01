@@ -32,7 +32,7 @@ cd JustRecipe
 cd frontend
 
 # Install all dependencies
-npm install angular
+npm install
 
 # Run the Angular app
 ng serve
